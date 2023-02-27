@@ -12,11 +12,46 @@
                 <li><a href="./aboutMe.html">ABOUT ME</a></li>
                 <li><a href="./addContent.html">CONTENT</a></li>
             </ul>
-
         </header>
 
         <div>
-
+            <h1>We would like to meet you!</h1>
+            <p>Please, complete the next fields and we will contact you</p>
+            <form action="../index.html" method="POST">
+                <div>
+                    <label for="idName">Enter your name</label>
+                    <input type="text" name="name" id="idName" required>
+                    <br>
+                    <label for="idEmail">Enter your email</label>
+                    <input type="email" name="email" id="idEmail" placeholder="your@email.com" required>
+                    <br>
+                    <label for="idPhone">Enter your phone number</label>
+                    <!-- hacer que en el patron el primer numero sea 3 -->
+                    <input type="tel" name="phone" id="idPhone" pattern="[3]+[0-9]{10}" required>
+                    <br>
+                    <!-- shido que quede con todos los paises -->
+                    <label for="idCountry">Country</label>
+                    <input type="text" name="country" id="idCountry">
+                    <label for="idCity">City</label>
+                    <input type="text" name="city" id="idCity">
+                    <br>
+                    <p>Why you contact us?</p>
+                    <label for="idInformation">Information</label>
+                    <input type="checkbox" value="information" name="contactReason" id="idInformation">
+                    <label for="idJobVacancy">Job vacancy</label>
+                    <input type="checkbox" value="jobVacancy" name="contactReason" id="idJobVacancy">
+                    <label for="idPartnership">Partnership</label>
+                    <input type="checkbox" value="partnership" name="contactReason" id="idPartnership">
+                    <br>
+                    <label for="textAdd" class="title">Complaints and suggestions</label>
+                    <textarea id="textAdd" name="boxComplaints" rows="5" cols="35">
+                        My message 
+                    </textarea>
+                    <br>
+                    <!-- mensaje flotante de enviado correctamente -->
+                    <input id="sendButton" type="submit" value="send">
+                </div>
+            </form>
         </div>
 
         <footer>
