@@ -3,24 +3,32 @@
     <head>
         <title>HOME</title>
         <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloock|Lato|Roboto">
     </head>
 
     <body>
         <header>
-            
-            <!-- LOCAL NAVIGATION MENU -->
-
+            <ul>
+                <li><a href="#sec1_protLives">PROTECTION OF LIVES</a></li>
+                <li><a href="#sec2_protProperty">PROTECTION OF PROPERTY</a></li>
+                <li><a href="#sec3_econBenefits">ECONOMIC BENEFITS</a></li>
+                <li><a href="#sec4_adaptation">CLIMATE CHAGE ADAPTION</a></li>
+                <li><a href="#sec5_sustDevelopment">SUSTAINABLE DEVELOPMENT</a></li>
+                <li><a href="#sec5_news">LAST NEWS</a></li>
+            </ul>
         </header>
 
-        <div>
-            <h1>Flood disaster risk management</h1>
-            <p>
-                Floods are one of the most common natural disasters that can cause significant damage to human lives and property. Flood
-                disaster risk management is the process of identifying, assessing, and prioritizing flood risks to reduce the likelihood
-                and severity of floods' impact. The importance of flood disaster risk management cannot be overstated, and here are some
-                reasons why:
-            </p>
-            <div>
+        <section>
+            <div id="introduction">
+                <h1>FLOOD DISASTER RISK MANAGEMENT</h1>
+                <p>
+                    Floods are one of the most common natural disasters that can cause significant damage to human lives and property. Flood
+                    disaster risk management is the process of identifying, assessing, and prioritizing flood risks to reduce the likelihood
+                    and severity of floods' impact. The importance of flood disaster risk management cannot be overstated, and here are some
+                    reasons why:
+                </p>
+            </div>
+            <div id="sec1_protLives">
                 <h2>Protection of lives</h2>
                 <img src="https://www.who.int/images/default-source/health-and-climate-change/rescue-operation-haiti-flood-c-un-photo-marco-dormino.tmb-1024v.jpg?sfvrsn=412ab270_1"
                     alt="flood victims"
@@ -31,7 +39,7 @@
                     effective evacuation plans and creating emergency response teams
                 </p>
                 <h3>Most affected countries</h3>
-                <ol>
+                <ol class="sectionListAndTable">
                     <li>Bangladesh</li>
                     <li>India</li>
                     <li>China</li>
@@ -39,7 +47,7 @@
                     <li>Indonesia</li>
                 </ol>
             </div>
-            <div>
+            <div id="sec2_protProperty">
                 <h2>Protection of property</h2>
                 <img src="https://cdn.chinadialogue.net/content/uploads/2020/09/15130855/2CD3P3D_serious-flooding-in-Jiangxi-China-2020-scaled.jpg"
                     alt="house drown "
@@ -50,7 +58,7 @@
                     and other infrastructure. Here are some examples of countries that have been particularly affected by floods in recent
                     years and the estimated value of their losses:
                 </p>
-                <table>
+                <table class="sectionListAndTable">
                     <thead>
                         <tr>
                             <th>Country</th>
@@ -81,7 +89,7 @@
                     </tfoot>
                 </table>
             </div>
-            <div>
+            <div id="sec3_econBenefits">
                 <h2>Economic benefits</h2>
                 <img src="https://www.who.int/images/default-source/departments/ntd-library/snakebite/kerala-state-flood/kerala-state-assistance-atul-loke.jpg?sfvrsn=fa3f2b89_2"
                     alt="people receiving food and water after flood disaster"
@@ -98,14 +106,14 @@
                     with local communities and stakeholders to ensure that flood risk management strategies are tailored to local needs and
                     priorities.
                 </p>
-                <ul>
+                <ul class="sectionListAndTable">
                     <li>Offering flood risk assessment and consulting services</li>
                     <li>Development of flood-resistant infrastructure products and services</li>
                     <li>Offer emergency response services in the event of a flood disaster</li>
                 </ul>
 
             </div>
-            <div>
+            <div id="sec4_adaptation">
                 <h2>Climate change adaptation</h2>
                 <img src="https://cdn.who.int/media/images/default-source/global-malaria-program-(gmp)/in-page-highlights/surveillance-cambodia.tmb-1024v.jpg?sfvrsn=3b50dbc3_2"
                     alt="people showing tablet application for floods risk management"
@@ -117,13 +125,13 @@
                 </p>
                 <br>
                 <h3><a href="./html/addContent.html" target="_blank">General tips</a></h3>
-                <ul>
+                <ul class="sectionListAndTable">
                     <li>Conduct a flood risk assessment</li>
                     <li>Develop a flood risk management plan</li>
                     <li>Implement and monitor flood risk management measures</li>
                 </ul>
             </div>
-            <div>
+            <div id="sec5_sustDevelopment">
                 <h2>Sustainable development</h2>
                 <img src="https://static01.nyt.com/images/2013/02/14/arts/14waterways_337/14waterways_337-jumbo.jpg?quality=75&auto=webp"
                     alt="Overdiepse Polder in south of Amsterdam"
@@ -133,7 +141,7 @@
                     communities can continue to grow and prosper while protecting their natural resources and biodiversity
                 </p>
                 <h3>Countries recognized for their effective flood disaster risk management practices</h3>
-                <ol>
+                <ol class="sectionListAndTable">
                     <li>The Netherlands</li>
                     <li>Japan</li>
                     <li>Singapore</li>
@@ -141,17 +149,30 @@
                     <li>United States</li>
                 </ol>
             </div>
-        </div>
+            <div id="sec6_news">
+                <h2>Last news</h2>
+                <video src="./videos/main/floods.mp4" controls>
+                    It's not working
+                </video>
+                <br>
+            </div>
+        </section>
 
         <footer>
-            <ul>
-                <li><a href="./html/aboutMe.html">ABOUT ME</a></li>
-                <li><a href="./html/contact.html">CONTACT</a></li>
-                <li><a href="./html/addContent.html">CONTENT</a></li>
-            </ul>
-
-            <p>Web design by Viviana Benítez</p>
-            <p>2023</p>
+            <nav>
+                <br>
+                <ul class="hello">
+                    <li><a href="./html/aboutMe.html">ABOUT ME</a></li>
+                    <li><a href="./html/contact.html">CONTACT</a></li>
+                    <li><a href="./html/addContent.html">MORE CONTENT</a></li>
+                </ul>
+            </nav>
+            <div class="bottomFooter">
+                <p>
+                    Web design by Viviana Benítez, <br>
+                    2023
+                </p>
+            </div>
         </footer>
     </body>
 </html>

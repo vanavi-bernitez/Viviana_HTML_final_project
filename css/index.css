@@ -1,0 +1,108 @@
+header {
+    position: sticky;
+    top: 1%;
+    background-color: #13005A;
+}
+
+header ul {
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+header li {
+    display: inline-block;
+    padding: 1%;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+}
+
+header a:hover {
+    border-left: 0.2rem solid aliceblue;
+}
+
+section {
+    margin: 0 auto;
+    width: 90%
+}
+
+h1 {
+    font-family: 'Gloock', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 200%;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+#introduction {
+    margin: 0 auto;
+    width: 60%;
+}
+
+h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+img, video {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.sectionListAndTable {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer  {
+    position: relative;
+    background-color: rgba(0, 51, 124, 0.3);
+}
+
+nav ul {
+    list-style-type: none;
+    /* margin: 3% 0%; */
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline-block;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #13005A;
+    font-weight: bold;
+    padding: 1em;
+}
+
+a:hover {
+    border-style: solid, #13005A;
+    background-color: #13005A;
+    color: aliceblue;
+    font-weight: lighter;
+}
+
+/* .bottomFooter {
+    margin-top: 2%;
+} */
+
+.bottomFooter p {
+    /* margin: 1%; */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+

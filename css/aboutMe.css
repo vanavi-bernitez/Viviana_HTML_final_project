@@ -1,0 +1,88 @@
+header {
+    position: sticky;
+    top: 1%;
+    background-color: #13005A;
+}
+
+header ul {
+    list-style-type: none;
+    justify-content: space-around;
+    display: flex;
+}
+
+header li {
+    display: inline-block;
+    padding: 1%;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: aliceblue;
+}
+
+header a:hover {
+    border-left: 0.2rem solid aliceblue;
+}
+
+h1 {
+    font-family: 'Gloock', sans-serif;
+    text-align: center;
+    border-style: solid ;
+}
+
+.textImageBlock {
+    display: block;
+    border-style: solid;
+    margin: 2% 10%;
+}
+
+.aboutMeBlock  {
+    padding: 1em;
+    text-align: justify;
+}
+
+#imgSelfie {
+    /* display: block; */
+    float: right;
+    border-radius: 50%;
+    margin: 2%;
+    border-style: solid;
+    width: 30%;
+}
+
+.contactIcons{
+    text-align: center;
+}
+
+.contactIcons ul {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+
+.contactIcons li {
+    margin-bottom: 2%;
+    /* margin: 2% 5%; */
+}
+  
+.contactIcons img {
+    width: 10%;
+}
+
+
+
+footer{
+    /* margin: 2%; */
+    /* border-style: solid; */
+    background-color: rgba(0, 51, 124, 0.3);
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /* border-style: solid; */
+}

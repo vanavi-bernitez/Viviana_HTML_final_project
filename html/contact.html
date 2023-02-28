@@ -3,6 +3,7 @@
     <head>
         <title>Contact</title>
         <link rel="stylesheet" href="../css/contact.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gloock|Lato|Roboto">
     </head>
 
     <body>
@@ -14,11 +15,11 @@
             </ul>
         </header>
 
-        <div>
-            <h1>We would like to meet you!</h1>
+        <section>
+            <h1>Let's get in touch! </h1>
             <p>Please, complete the next fields and we will contact you</p>
             <form action="../index.html" method="POST">
-                <div>
+                <div class="inputs">
                     <label for="idName">Enter your name</label>
                     <input type="text" name="name" id="idName" required>
                     <br>
@@ -27,36 +28,39 @@
                     <br>
                     <label for="idPhone">Enter your phone number</label>
                     <!-- hacer que en el patron el primer numero sea 3 -->
-                    <input type="tel" name="phone" id="idPhone" pattern="[3]+[0-9]{10}" required>
+                    <input type="tel" name="phone" id="idPhone" pattern="[0-9]{10}" required>
                     <br>
-                    <!-- shido que quede con todos los paises -->
                     <label for="idCountry">Country</label>
                     <input type="text" name="country" id="idCountry">
+                    <br>
                     <label for="idCity">City</label>
                     <input type="text" name="city" id="idCity">
                     <br>
-                    <p>Why you contact us?</p>
-                    <label for="idInformation">Information</label>
-                    <input type="checkbox" value="information" name="contactReason" id="idInformation">
-                    <label for="idJobVacancy">Job vacancy</label>
-                    <input type="checkbox" value="jobVacancy" name="contactReason" id="idJobVacancy">
-                    <label for="idPartnership">Partnership</label>
-                    <input type="checkbox" value="partnership" name="contactReason" id="idPartnership">
+                    <label>Why you contact us?</label> <br>
+                    <label for="idInformation" class="checkbox">Information</label>
+                    <input type="checkbox" value="information" name="contactReason" id="idInformation" class="checkbox">
+                    <label for="idJobVacancy" class="checkbox">Job vacancy</label>
+                    <input type="checkbox" value="jobVacancy" name="contactReason" id="idJobVacancy" class="checkbox">
+                    <label for="idPartnership" class="checkbox">Partnership</label>
+                    <input type="checkbox" value="partnership" name="contactReason" id="idPartnership" class="checkbox">
+                    <br>
                     <br>
                     <label for="textAdd" class="title">Complaints and suggestions</label>
                     <textarea id="textAdd" name="boxComplaints" rows="5" cols="35">
-                        My message 
+                      Message
                     </textarea>
                     <br>
                     <!-- mensaje flotante de enviado correctamente -->
-                    <input id="sendButton" type="submit" value="send">
+                    <input id="sendButton" type="submit" value="send" >
                 </div>
             </form>
-        </div>
+        </section>
 
         <footer>
-            <p>Web design by Viviana Benítez</p>
-            <p>2023</p>
+            <p>
+                Web design by Viviana Benítez, <br>
+                2023
+            </p>
         </footer>
     </body>
 </html>
