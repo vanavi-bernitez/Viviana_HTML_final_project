@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient(rgb(234, 246, 246), rgb(249, 249, 249), rgba(0, 51, 124,0.3));
+}
+
 header {
     background-color: #13005A;
 }
@@ -67,10 +71,9 @@ section p:not(#textMainSection) {
     font-family: 'Lato', sans-serif;
 }
 
-
-
 footer{
-    background-color: rgba(0, 51, 124, 0.3);
+    border-top: double rgba(0, 51, 124, 0.4);
+    border-bottom: double rgba(0, 51, 124, 0.4);
 }
 
 footer p {
